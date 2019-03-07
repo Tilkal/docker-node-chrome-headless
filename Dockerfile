@@ -1,4 +1,4 @@
-FROM node:11.3
+FROM node:11
 
 # see https://github.com/Googlechrome/puppeteer/issues/290
 
@@ -13,4 +13,3 @@ RUN npm i -g npm && \
     fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils python-dev && \
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
     python get-pip.py && pip install awscli 
- 
