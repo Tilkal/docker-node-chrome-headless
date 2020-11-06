@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:14
 
 # see https://github.com/Googlechrome/puppeteer/issues/290
 
