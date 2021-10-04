@@ -11,5 +11,5 @@ RUN npm i -g npm && \
     libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 \
     libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates \
     fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils python-dev && \
-    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
-    python get-pip.py && pip install awscli 
+    curl https://bootstrap.pypa.io/pip/3.5/get-pip.py -o get-pip.py && \
+    python3 get-pip.py && pip install awscli 
